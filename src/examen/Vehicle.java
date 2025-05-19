@@ -1,6 +1,7 @@
 package examen;
 
 class Vehicle {
+
     private String matricula;
     private String marca;
     private String model;
@@ -57,14 +58,12 @@ class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle: " +this.hashCode() +
-                " Matricula: " + this.getMatricula() +
-                " Marca: " + this.getMarca() +
-                " Model: " + this.getModel() +
-                " Any: " + this.getAny() +
-                " Preu: " + this.getPreu();
+        return "Vehicle: " + this.hashCode()
+                + " Matricula: " + this.getMatricula()
+                + " Marca: " + this.getMarca()
+                + " Model: " + this.getModel()
+                + " Any: " + this.getAny()
+                + " Preu: " + this.getPreu();
     }
-    
-    
-    
+
 }
