@@ -1,6 +1,7 @@
 package examen;
 
 class Vehicle {
+
     private String matricula;
     private String marca;
     private String model;

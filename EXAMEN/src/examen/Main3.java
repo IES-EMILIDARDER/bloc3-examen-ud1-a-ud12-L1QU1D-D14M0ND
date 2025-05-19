@@ -29,11 +29,11 @@ public class Main3 {
         } catch (IOException e) {
             System.err.println("Error al abrir el archivo: " + e.getMessage());
         }
-        
+
         System.out.println(vehicles);
 
         vehicles.stream().forEach((e) -> e.setPreu(e.getPreu() * ((aumento / 100) + 1)));
-        
+
         System.out.println(vehicles);
 
     }
