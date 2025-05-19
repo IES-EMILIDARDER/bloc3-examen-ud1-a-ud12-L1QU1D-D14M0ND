@@ -54,7 +54,17 @@ class Vehicle {
     public void setPreu(double preu) {
         this.preu = preu;
     }
-    
-    
 
+    @Override
+    public String toString() {
+        return "Vehicle: " +this.hashCode() +
+                " Matricula: " + this.getMatricula() +
+                " Marca: " + this.getMarca() +
+                " Model: " + this.getModel() +
+                " Any: " + this.getAny() +
+                " Preu: " + this.getPreu();
+    }
+    
+    
+    
 }
